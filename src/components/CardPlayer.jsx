@@ -7,7 +7,8 @@ const CardPlayer = () => {
             <span>Equipo: Olimpo</span>
             <span>Categoría: Primera (Masculino)</span>
             <div className="buttons-card">
-                <button>Sacar de seguro</button>
+                <button>Dar de baja seguro</button>
+                <button>Agregar a planilla</button>
             </div>
         </div>
     );

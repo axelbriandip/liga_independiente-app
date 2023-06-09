@@ -17,8 +17,12 @@
     background-color: var(--white);
 }
 
-.buttons-card button {
-    width: 8rem;
+.buttons-card {
     margin-top: 1.5rem;
+    display: flex;
+    gap: .5rem;
+}
+
+.buttons-card button {
     padding: .5rem;
 }

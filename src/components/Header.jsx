@@ -1,26 +1,28 @@
+import shield from '../img/shield-corg.svg';
+
 const Header = () => {
     return (
         <section className="header">
-            <h1>Pases</h1>
-            <select name="team" id="team">
-                <option value="team">Seleccionar equipo</option>
-                <option value="team1">Team 1</option>
-                <option value="team2">Team 2</option>
-                <option value="team3">Team 3</option>
-                <option value="team4">Team 4</option>
-                <option value="team5">Team 5</option>
-            </select>
-            <select name="category" id="category">
-                <option value="category">Seleccionar categoría</option>
-                <option value="category1">Category 1</option>
-                <option value="category2">Category 2</option>
-                <option value="category3">Category 3</option>
-                <option value="category4">Category 4</option>
-                <option value="category5">Category 5</option>
-            </select>
+            <div className="header-team">
+                <img src={shield} alt="shield" className='shield-header'/>
+                <h3>Olympic F.C.</h3>
+            </div>
+            <div className="filters-header">
+                <select name="category" id="category" className="form-select" aria-label="Default select example">
+                    <option value="category">Seleccionar categoría</option>
+                    <option value="category1">Primera (masculino)</option>
+                    <option value="category5">Reserva</option>
+                    <option value="category5">Sexta (2011/12)</option>
+                    <option value="category5">Séptima (2012/14)</option>
+                    <option value="category5">Octava (2014/15)</option>
+                    <option value="category4">Novena (2016/17)</option>
+                    <option value="category2">Primera (femenino)</option>
+                    <option value="category3">Veteranos</option>
+                </select>
+            </div>
             <div className="buttons-header">
-                <button>Descargar planilla</button>
-                <button>Agregar jugador/a</button>
+                <button className='btn btn-primary'>Descargar planilla</button>
+                <button className='btn btn-primary'>Agregar jugador/a</button>
             </div>
         </section>
     );
