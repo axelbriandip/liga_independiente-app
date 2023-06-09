@@ -18,6 +18,10 @@ const Header = () => {
                 <option value="category4">Category 4</option>
                 <option value="category5">Category 5</option>
             </select>
+            <div className="buttons-header">
+                <button>Descargar planilla</button>
+                <button>Agregar jugador/a</button>
+            </div>
         </section>
     );
 };

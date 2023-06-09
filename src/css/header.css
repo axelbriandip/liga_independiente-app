@@ -12,3 +12,13 @@
     padding: .3rem;
     background-color: var(--white);
 }
+
+.header button {
+    width: 10rem;
+    padding: .5rem;
+}
+
+.buttons-header {
+    display: flex;
+    gap: 1rem;
+}
