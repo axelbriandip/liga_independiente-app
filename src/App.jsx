@@ -1,7 +1,8 @@
 import './css/main.css';
 import {
   Nav,
-  Header
+  Header,
+  Lists
 } from './components/Index';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Nav/>
       <Header/>
+      <Lists/>
     </div>
   )
 }

@@ -1,5 +1,7 @@
 @import url('./nav.css');
 @import url('./header.css');
+@import url('./lists.css');
+@import url('./card-player.css');
 
 * {
     padding: 0;
@@ -9,7 +11,7 @@
 
 :root {
     --black: #333;
-    --white: #eee;
+    --white: #fff;
     --orange-primary: #E65E27;
     --orange-slate: #FF7A45;
     --orange-dark: #99350D;
@@ -18,6 +20,6 @@
 }
 
 body {
-    background-color: var(--white);
+    background-color: #eee;
     color: var(--black);
 }
