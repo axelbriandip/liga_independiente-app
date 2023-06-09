@@ -1,11 +1,12 @@
-import './css/main.css'
+import './css/main.css';
+import {
+  Nav
+} from './components/Index';
 
 function App() {
-  // logica
-
   return (
     <div className="App">
-      <h1>Este es el app</h1>
+      <Nav/>
     </div>
   )
 }
